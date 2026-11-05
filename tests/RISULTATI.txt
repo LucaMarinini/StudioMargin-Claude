@@ -1,0 +1,53 @@
+File: StudioMargin.xlsx
+PASS base: costo pieno/ora
+PASS base: tariffa suggerita
+PASS base: preventivo riga 1
+PASS base: preventivo riga 2
+PASS base: preventivo riga 3
+PASS base: preventivo riga 4
+PASS base: totale ricavi
+PASS base: saldi cassa 12 mesi
+PASS base: saldo minimo
+PASS base: mesi negativi
+PASS base: controllo input = OK
+PASS base: attività 'Revisione D' segnalata IN PERDITA
+PASS base: attività A–C 'OK'
+PASS base: cruscotto conta 1 attività critica
+PASS ore=0: messaggio di errore
+PASS ore=0: tariffa e costo = 0 (niente #DIV/0)
+PASS margine=100%: errore segnalato e tariffa 0
+PASS margine=0: tariffa = costo pieno
+PASS parametri alterati: costo pieno/ora
+PASS parametri alterati: tariffa suggerita
+PASS parametri alterati: preventivo riga 1
+PASS parametri alterati: preventivo riga 2
+PASS parametri alterati: preventivo riga 3
+PASS parametri alterati: preventivo riga 4
+PASS parametri alterati: totale ricavi
+PASS parametri alterati: saldi cassa 12 mesi
+PASS parametri alterati: saldo minimo
+PASS parametri alterati: mesi negativi
+PASS spese+imprevisti: riga 1
+PASS prezzo concordato con 0 ore
+PASS totale = somma finali
+PASS 0 attività: totali 0 e margine % 0 (niente #DIV/0)
+PASS 0 attività: cruscotto senza errori
+PASS incassi 0: 12 mesi in negativo
+PASS incassi 0: primo mese negativo = mese iniziale
+PASS senza prelievo compenso: saldi
+PASS calendario: 12 mesi consecutivi da dic 2026
+PASS documento: righe coerenti con preventivi
+PASS documento: imponibile = ricavi totali
+PASS documento: IVA 22% e totale
+PASS documento: nessun margine interno esposto
+PASS nessun errore # in nessun foglio (valori in cache)
+PASS stampa: area impostata su tutti i fogli
+PASS stampa: A4 e adattamento alla larghezza
+PASS Documento in verticale, gli altri orizzontali tranne Leggimi
+PASS font unico Arial
+PASS 2 grafici presenti nel file
+PASS nessun collegamento esterno
+PASS nessuna macro
+PASS validazioni dati presenti
+
+TOTALE: 50/50 superati

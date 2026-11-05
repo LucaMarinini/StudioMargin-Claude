@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StudioMargin — tariffa, preventivi, margini e cassa in un foglio Excel</title>
+<meta name="description" content="Foglio Excel gratuito per freelance e piccoli studi: tariffa oraria sostenibile, preventivi con margini, previsione di cassa a 12 mesi e preventivo stampabile. Versione 0.1 in validazione.">
+<style>
+  :root { --navy:#1f3864; --ink:#1a1a1a; --muted:#4a4a4a; --line:#d0d5dd; --soft:#f4f6fa; --warn:#fff4e0; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 Arial, Helvetica, sans-serif; color:var(--ink); background:#fff; }
+  a { color:#0b4fa8; }
+  a:focus-visible, .btn:focus-visible { outline:3px solid #0b4fa8; outline-offset:2px; }
+  header, main, footer { max-width:960px; margin:0 auto; padding:0 20px; }
+  header { padding-top:28px; padding-bottom:8px; }
+  .brand { font-weight:bold; color:var(--navy); font-size:1.1rem; }
+  h1 { font-size:clamp(1.7rem,4vw,2.4rem); line-height:1.2; color:var(--navy); margin:.6em 0 .3em; }
+  h2 { color:var(--navy); margin-top:2.2em; font-size:1.4rem; }
+  .lead { font-size:1.15rem; color:var(--muted); max-width:44em; }
+  .tag { display:inline-block; background:var(--warn); border:1px solid #f0c36d; padding:2px 10px; border-radius:999px; font-size:.85rem; }
+  .btn { display:inline-block; background:var(--navy); color:#fff; padding:12px 22px; border-radius:6px; text-decoration:none; font-weight:bold; margin:.6em 0; }
+  .btn:hover { background:#142748; }
+  .note { background:var(--soft); border-left:4px solid var(--navy); padding:12px 16px; margin:1.2em 0; }
+  .warn { background:var(--warn); border-left-color:#d08a00; }
+  figure { margin:1.6em 0; }
+  figure img { max-width:100%; height:auto; border:1px solid var(--line); border-radius:6px; }
+  figcaption { color:var(--muted); font-size:.92rem; margin-top:.4em; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px; }
+  .card { border:1px solid var(--line); border-radius:8px; padding:14px 16px; }
+  .card h3 { margin:.1em 0 .3em; font-size:1.05rem; color:var(--navy); }
+  .doc { max-width:420px; }
+  footer { border-top:1px solid var(--line); margin-top:3em; padding-top:16px; padding-bottom:40px; color:var(--muted); font-size:.92rem; }
+  ul { padding-left:1.2em; }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">StudioMargin</div>
+  <h1>Quanto costa davvero un'ora del tuo lavoro? Un foglio Excel per scoprirlo.</h1>
+  <p class="lead">Calcola una tariffa sostenibile, verifica il margine di ogni preventivo e controlla quando ti servirà liquidità nei prossimi 12 mesi.</p>
+  <p><span class="tag">Versione 0.1 · gratuita · in validazione</span></p>
+  <p><a class="btn" href="StudioMargin.xlsx" download>Scarica StudioMargin.xlsx</a><br>
+  <small>File Excel senza macro, senza registrazione. Contiene dati dimostrativi inventati da sostituire con i tuoi.</small></p>
+</header>
+
+<main>
+  <div class="note warn" role="note">
+    <strong>Stato del progetto.</strong> Non ci sono vendite né pagamenti attivi: la versione 0.1 si scarica gratis ed è in fase di prova.
+    Gli esempi mostrati sono numeri dimostrativi, non risultati reali di nessuno.
+  </div>
+
+  <h2>Cosa contiene</h2>
+  <div class="grid">
+    <div class="card"><h3>Tariffa</h3><p>Dal compenso che vuoi ottenere, dai costi e dalle ore realmente vendibili ricava il costo pieno orario e la tariffa suggerita per un margine a tua scelta.</p></div>
+    <div class="card"><h3>Preventivi</h3><p>Fino a 12 attività con ore, spese esterne e maggiorazione per imprevisti. Segnala quelle sotto il margine obiettivo o in perdita.</p></div>
+    <div class="card"><h3>Cassa a 12 mesi</h3><p>Incassi previsti, uscite fisse, prelievo del compenso e saldo mese per mese, con avviso se il conto va in negativo.</p></div>
+    <div class="card"><h3>Cruscotto</h3><p>Pochi indicatori essenziali e due grafici: margine per attività e saldo di cassa.</p></div>
+    <div class="card"><h3>Preventivo stampabile</h3><p>Un foglio A4 pronto da stampare o salvare in PDF, che riprende le attività e non mostra i tuoi margini interni.</p></div>
+  </div>
+
+  <h2>Com'è fatto davvero</h2>
+  <p>Le immagini seguenti sono schermate del file reale, ottenute dalla stampa del foglio con i dati dimostrativi.</p>
+  <figure>
+    <img src="img/cruscotto.png" width="1211" height="835" alt="Foglio Cruscotto: tabella con costo pieno orario 44 euro, tariffa suggerita 51,76 euro, ricavi preventivati 3.871 euro, margine 15,5 per cento; grafico a barre del margine per attività e grafico lineare del saldo di cassa a 12 mesi.">
+    <figcaption>Cruscotto (dati dimostrativi). Un'attività su quattro è segnalata perché in perdita.</figcaption>
+  </figure>
+  <figure>
+    <img src="img/preventivi.png" width="1215" height="837" alt="Foglio Preventivi: quattro attività dimostrative con ore, spese, prezzo, costo pieno, margine in euro e in percentuale; la quarta, Revisione D, è evidenziata come in perdita.">
+    <figcaption>Preventivi (dati dimostrativi). Il prezzo concordato di «Revisione D» è sotto il costo: il foglio lo evidenzia.</figcaption>
+  </figure>
+  <figure class="doc">
+    <img src="img/documento.png" width="780" height="1211" alt="Foglio Documento: preventivo stampabile in formato A4 con elenco delle attività, imponibile, IVA e totale.">
+    <figcaption>Preventivo stampabile in A4 (dati dimostrativi).</figcaption>
+  </figure>
+
+  <h2>Cosa non fa</h2>
+  <ul>
+    <li>Non calcola imposte, contributi previdenziali, IVA a debito o insoluti: il compenso obiettivo va inteso al lordo.</li>
+    <li>L'aliquota IVA nel preventivo è solo un valore che scegli tu (0% se non applicabile): confrontati con il tuo commercialista.</li>
+    <li>Non è consulenza fiscale o finanziaria: i risultati dipendono dalle ipotesi che inserisci.</li>
+    <li>Collaudato con LibreOffice. Una verifica completa con Microsoft Excel non è ancora stata eseguita.</li>
+  </ul>
+
+  <h2>Come è stato controllato</h2>
+  <p>Una suite di 50 controlli automatici ricalcola il file e lo confronta con un modello di calcolo indipendente, includendo casi limite (ore a zero, margine al 100%, nessuna attività, cassa sempre negativa). Il codice e gli esiti sono pubblici nella cartella <a href="https://github.com/LucaMarinini/StudioMargin-Claude/tree/main/tests">tests</a>.</p>
+
+  <h2>Feedback</h2>
+  <p>Per segnalare un errore o dire che cosa manca puoi <a href="https://github.com/LucaMarinini/StudioMargin-Claude/issues">aprire una segnalazione su GitHub</a> (serve un account GitHub).</p>
+</main>
+
+<footer>
+  <p><strong>Privacy.</strong> Questa pagina non usa cookie né strumenti di analisi propri e non contiene moduli. Il sito è ospitato da GitHub Pages: GitHub può registrare dati tecnici di accesso secondo la <a href="https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement">propria informativa</a>. Il file Excel funziona sul tuo computer e non invia dati a nessuno.</p>
+  <p>StudioMargin v0.1 · dati dimostrativi · nessuna garanzia sui risultati.</p>
+</footer>
+</body>
+</html>
