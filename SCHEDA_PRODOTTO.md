@@ -13,11 +13,11 @@ Stato: bozza pronta da incollare in una piattaforma MoR dopo i passi 1–3 del p
 - Cruscotto con indicatori essenziali e due grafici.
 - Preventivo stampabile in A4 che non mostra i tuoi margini interni.
 
-**Cosa non fa:** non calcola imposte, contributi, IVA a debito o insoluti; non è consulenza fiscale o finanziaria. Collaudato con LibreOffice; verifica con Microsoft Excel da completare prima della messa in vendita.
+**Cosa non fa:** non calcola imposte, contributi, IVA a debito o insoluti; non è consulenza fiscale o finanziaria. Collaudato con LibreOffice; il proprietario riferisce di averlo verificato in Microsoft Excel.
 
 **Come è stato controllato:** 50 controlli automatici contro un modello di calcolo indipendente, con casi limite (codice pubblico nella cartella `tests`).
 
-**Prezzo proposto [ipotesi]:** 12 € (netto stimato circa 9,65 € dopo commissioni, v. PIANO_D_AZIONE.md §5). Da confermare dal proprietario.
+**Prezzo deciso dal proprietario (05/11, ore 20:16):** 10 €. Netto stimato circa 7,5 € dopo commissioni Gumroad (10% + 0,50 $ più elaborazione carta; cambio e IVA non modellati).
 
 **Garanzia e rimborsi:** da definire dal proprietario; i rimborsi vincolano e richiedono approvazione.
 
