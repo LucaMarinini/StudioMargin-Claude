@@ -50,8 +50,28 @@ Il commercialista indica che i payout possono essere considerati «altri redditi
 3. La soglia dei 5.000 € per la Gestione Separata si calcola sul totale annuo o per singolo committente? Si applica al mio caso?
 4. Il reddito è il payout netto o il totale lordo delle vendite? Le commissioni della piattaforma e le differenze di cambio sono spese deducibili?
 5. Quale aliquota di accantonamento uso per il ledger? Ci sono incompatibilità con la mia attività attuale e con la mia partita IVA esistente?
+6. Se lascio i payout sul saldo della piattaforma senza prelevarli, da quando il reddito si considera percepito? Cambia se il saldo è prelevabile a richiesta o solo a payout programmato?
 
 **Cancello fiscale [O]:** ci si ferma e si riverifica l'inquadramento quando arriva per primo uno di questi limiti: il numero di vendite o l'importo indicati per iscritto dal commercialista oppure, finché manca la risposta, **25 vendite o 1.000 € di incassi**. Questa soglia provvisoria è una cautela scelta da me, senza base normativa; viene sostituita non appena arriva la risposta.
+
+### Accumulare i payout sulla piattaforma o attivare la monetizzazione più tardi (valutazione del 05/11, ore 13)
+
+Due idee diffuse tra i creator, valutate con le fonti trovate (quasi tutte secondarie).
+
+**1. Non prelevare, lasciare il saldo sul pannello.**
+- **[F]** Per i redditi per cassa conta il momento in cui la somma entra nella disponibilità materiale e giuridica di chi la riceve; per le carte e i pagamenti digitali conta quando le somme diventano disponibili. [atti convegno Ordine Avvocati Torino; Cassazione n. 15439/2017; Fiscal Focus 9/2/2026]
+- **[I]** Un saldo che puoi prelevare quando vuoi potrebbe già essere «disponibile», quindi non è detto che non prelevarlo rinvii la tassazione. Se invece il saldo è bloccato fino al payout, il rinvio è più plausibile. Per Gumroad i payout con carta hanno un minimo e un blocco di 7 giorni (fonte singola), ma non ho una fonte che dica come il fisco tratti quel saldo: è la domanda 6.
+- **[F]** Il momento dell'incasso non cambia la natura dell'attività: se è abituale e continuativa, la partita IVA serve subito, anche sotto 5.000 €. [ilcommercialistaonline.it; fiscomania.com] Aspettare a incassare non rende occasionale un'attività che non lo è.
+- **[Rischio]** I fondi restano presso una terza parte, con rischio di sospensione dell'account e di trattenute.
+
+**2. Attivare la monetizzazione solo dopo la soglia in cui conviene la partita IVA.**
+- **[I]** Come strategia è coerente col piano: il prodotto resta **gratuito** finché non c'è la risposta scritta del commercialista. È quello che sto già facendo.
+- **[F]** Non esiste una soglia legale in euro per l'obbligo di partita IVA: i 5.000 € riguardano l'iscrizione INPS, non l'IVA, secondo una fonte; un'altra dà 4.800 € come limite oltre cui aprirla «certamente». Le fonti divergono, quindi non posso calcolare io «la soglia di convenienza». [ilcommercialistaonline.it; money.it]
+- **[I]** L'esempio di AdSense non è equivalente al nostro caso: i proventi da banner sono trattati come attività strutturalmente permanente, un prodotto scaricabile è diverso. [fiscomania.com, richiamando la risoluzione 129/1996] Inoltre, per ridurre l'incertezza, il sito resta senza pubblicità e senza analisi di traffico.
+
+**Effetto sulle regole della sfida [I]:** un saldo fermo sulla piattaforma è, secondo il tuo prompt, un credito da incassare e non capitale disponibile. Il ledger lo traccerà in una colonna separata e **non** conquisterà caselle finché non arriva sul conto. Se preferisci contare il saldo prelevabile a richiesta come disponibile, devi modificare tu la regola; lo segnalo perché il confronto tra modelli richiede regole uguali per tutti.
+
+**Il cancello fiscale conta le vendite, non i prelievi:** accumulare non lo sposta.
 
 ## 4. Confronto delle opzioni di prodotto
 
@@ -93,7 +113,7 @@ Le vendite sono cumulate, senza reinvestimento e senza imposte; con le imposte i
 
 | # | Azione | Chi | Cancello |
 |---|---|---|---|
-| 1 | Scrivere al commercialista le 5 domande di §3 e ottenere risposta per iscritto | Proprietario | Prima del primo incasso |
+| 1 | Scrivere al commercialista le 6 domande di §3 e ottenere risposta per iscritto | Proprietario | Prima del primo incasso |
 | 2 | Aprire account Gumroad a nome personale, verifica identità, scelta payout | Proprietario | Approvazione esplicita |
 | 3 | Aprire il file Excel in Microsoft Excel e controllare grafici e stampa | Proprietario | Prima della messa in vendita |
 | 4 | Verificare la pagina pubblicata su GitHub Pages | Proprietario | — |
