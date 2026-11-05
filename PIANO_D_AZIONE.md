@@ -54,6 +54,14 @@ Il commercialista indica che i payout possono essere considerati «altri redditi
 
 **Cancello fiscale [O]:** ci si ferma e si riverifica l'inquadramento quando arriva per primo uno di questi limiti: il numero di vendite o l'importo indicati per iscritto dal commercialista oppure, finché manca la risposta, **25 vendite o 1.000 € di incassi**. Questa soglia provvisoria è una cautela scelta da me, senza base normativa; viene sostituita non appena arriva la risposta.
 
+### Risposta orale del commercialista (05/11, ore 20)
+
+- **[F, riferito da Luca]** All'inizio l'attività può «sicuramente» essere trattata come prestazione occasionale; dall'anno prossimo, se serve, si cambia codice ATECO sulla partita IVA esistente.
+- **[I]** È coerente con il quadro come redditi diversi (art. 67 TUIR). Il via libera copre la fase di avvio, non fissa soglie: l'occasionalità dipende dai fatti (numero e continuità delle vendite), quindi un buon avvio può smettere di esserlo senza che cambi nulla di formale.
+- **[Decisione O]** Il cancello provvisorio (25 vendite o 1.000 €) resta come **punto di revisione**, non come blocco: se lo raggiungiamo prima di gennaio, si chiede al commercialista se anticipare il cambio di ATECO.
+- **Ancora da avere per iscritto:** soglie (importo e numero di vendite), aliquota di accantonamento per il ledger, trattamento del saldo non prelevato (domanda 6), eventuale qualificazione come diritti d'autore, base INPS (5.000 €).
+- **Effetto operativo:** si può aprire l'account Gumroad a nome personale (non sulla partita IVA) e preparare la pubblicazione, senza ancora pubblicarla: serve prima l'account verificato e la tua approvazione del prezzo.
+
 ### Accumulare i payout sulla piattaforma o attivare la monetizzazione più tardi (valutazione del 05/11, ore 13)
 
 Due idee diffuse tra i creator, valutate con le fonti trovate (quasi tutte secondarie).
