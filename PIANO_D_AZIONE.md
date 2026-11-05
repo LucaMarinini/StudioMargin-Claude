@@ -10,7 +10,7 @@ Il commercialista indica che, almeno all'inizio, conviene vendere tramite piatta
 Conseguenze sul piano:
 
 1. **Niente checkout proprio e niente Stripe in conto proprio.** Con un processore di pagamento diretto il venditore resta responsabile di IVA e adempimenti. Si usano solo piattaforme che fanno da *merchant of record* (MoR), cioè che risultano venditrici verso il cliente e gestiscono IVA e fatturazione ai clienti finali. [F: Fungies, Paddle docs, Gumroad]
-2. **Il reddito resta da dichiarare.** Il MoR non toglie l'obbligo di dichiarare ciò che si incassa. [F: topbubbleindex, fonte secondaria] Il trattamento fiscale e previdenziale dei payout va definito con il commercialista.
+2. **Il reddito resta da dichiarare**, come reddito diverso secondo l'indicazione del commercialista (vedi §3).
 3. **Un nuovo vincolo di processo:** i raddoppi non dipendono più solo dal mercato, ma anche dal fatto che l'attività resti qualificabile come occasionale (vedi §3).
 
 ## 2. Piattaforme: cosa risulta verificato
@@ -27,22 +27,31 @@ Conseguenze sul piano:
 
 **Cosa serve da te, e non posso fare io:** aprire l'account a tuo nome (non con la partita IVA), completare la verifica di identità, scegliere il metodo di payout e collegare il conto. Sono atti con implicazioni fiscali e contrattuali, quindi richiedono la tua approvazione e il tuo accesso.
 
-## 3. Il vincolo che il parere introduce
+## 3. Qualificazione dei redditi e vincoli (aggiornato il 05/11, ore 12)
 
-- **[F]** Il lavoro autonomo occasionale richiede assenza di abitualità e professionalità; la soglia di 5.000 € annui riguarda l'obbligo di iscrizione alla Gestione Separata INPS e opera solo se l'attività è già qualificabile come occasionale. [F: pmi.it; fiscozen; circolare INPS 103/2004]
-- **[F debole]** Una fonte divulgativa segnala che un catalogo sempre disponibile con ordini ricorrenti può essere considerato abituale anche sotto i 5.000 € annui. [centrofiscale.com]
-- **[I]** Un prodotto a catalogo con vendite ripetute somiglia proprio a questo schema. Non è una conclusione legale: è il motivo per cui chiedo al commercialista una conferma scritta delle condizioni in cui il suo parere resta valido.
-- **[I, aritmetica]** Con i raddoppi, la casella 12 vale 4.096 € e la casella 13 vale 8.192 €: la soglia di 5.000 € si supera proprio in corrispondenza della casella 13. Il capitale non coincide col reddito annuo, ma l'ordine di grandezza dice che il tema fiscale diventa concreto molto prima della casella 20.
-- **[Ipotesi prudente]** Va assunto che i payout siano tracciabili dalle autorità fiscali. Un blog di parte (creem.io) lo collega alla normativa DAC8, ma non ho verificato la norma esatta, quindi non la cito come fondamento.
+Il commercialista indica che i payout possono essere considerati «altri redditi», cioè **redditi diversi** (art. 67 TUIR). Fonti sotto: quasi tutte secondarie (portali fiscali, guide), non testi normativi; vanno confermate col commercialista.
 
-### Domande da porre per iscritto al commercialista
+**Cosa significa, secondo le fonti [F]**
+- Rientrano nei redditi diversi sia le attività commerciali non esercitate abitualmente (lett. i) sia il lavoro autonomo non esercitato abitualmente (lett. l). Si dichiarano nel quadro RL: rigo RL14 per le prime, RL15 per le seconde, con le relative spese documentate e inerenti. [ecnews.it]
+- Il reddito è dato dagli incassi meno le spese direttamente inerenti e documentate (art. 71, c. 2 TUIR), per cassa, con tassazione IRPEF ordinaria e **nessuna deduzione forfettaria**. [investireoggi.it, leggeinchiaro.it, fiscoinvestimenti.it]
+- L'obbligo di iscrizione alla Gestione Separata INPS sopra 5.000 € annui riguarda il lavoro autonomo occasionale (lett. l), con contributi solo sull'eccedenza. [circolare unige, investireoggi.it, fiscozen.it] Una fonte parla di 5.000 € «da uno stesso committente», le altre del totale annuo: punto da chiarire.
+- **Lett. i o lett. l per un prodotto digitale?** Le fonti non sono uniformi: una assimila la vendita di servizi web al lavoro autonomo [soldionline.it], un documento regionale tratta la vendita occasionale come attività commerciale [Regione Piemonte]. La scelta cambia il rigo di dichiarazione e se scatta la Gestione Separata.
+- **Abitualità:** per l'occasionalità non esistono parametri certi [Regione Piemonte]. Un articolo riporta un caso in cui l'elevato numero di transazioni è stato giudicato prova di abitualità, con redditi riqualificati come d'impresa. [informazionefiscale.it; sentenza non verificata]
 
-1. Con quale qualificazione vanno trattati i payout di una piattaforma MoR (lavoro autonomo occasionale, altro) e con quali adempimenti?
-2. Oltre quale volume o frequenza il parere decade e serve la partita IVA? Il reddito di riferimento è al lordo o al netto dei costi?
-3. L'aliquota di accantonamento da applicare ai payout, per stimare il saldo netto del ledger.
-4. L'attività ha implicazioni di compatibilità con il tuo lavoro attuale o con la tua partita IVA esistente?
+**Implicazioni per il piano [I]**
+- **Il limite non è solo in euro, ma anche nel numero di vendite.** A 12 € per vendita, 4.000 € sono circa 400 transazioni: uno schema che somiglia al caso riportato. Il cancello diventa doppio (importo e numero di vendite).
+- Con i raddoppi la casella 12 vale 4.096 € e la casella 13 vale 8.192 €: la soglia dei 5.000 € si supera in corrispondenza della casella 13. Il capitale non coincide col reddito annuo, ma l'ordine di grandezza resta valido.
+- Il criterio di cassa è coerente con la regola del ledger «conta solo ciò che è incassato».
+- Il reddito imponibile è incassi meno spese documentate, tassato all'aliquota marginale di chi dichiara: l'accantonamento dipende dai tuoi altri redditi, che non conosco e non assumo.
 
-**Cancello fiscale proposto [O]:** prima di arrivare a circa 4.000 € di incassi annui da queste attività (vicini alla casella 12), si ferma l'espansione e si rivede l'inquadramento col commercialista.
+**Domande da porre per iscritto al commercialista**
+1. Questi payout rientrano nella lett. i) o nella lett. l) dell'art. 67 TUIR? Con quali righi e quali adempimenti?
+2. Oltre quale importo, numero di vendite o durata l'attività diventa abituale e serve la partita IVA?
+3. La soglia dei 5.000 € per la Gestione Separata si calcola sul totale annuo o per singolo committente? Si applica al mio caso?
+4. Il reddito è il payout netto o il totale lordo delle vendite? Le commissioni della piattaforma e le differenze di cambio sono spese deducibili?
+5. Quale aliquota di accantonamento uso per il ledger? Ci sono incompatibilità con la mia attività attuale e con la mia partita IVA esistente?
+
+**Cancello fiscale [O]:** ci si ferma e si riverifica l'inquadramento quando arriva per primo uno di questi limiti: il numero di vendite o l'importo indicati per iscritto dal commercialista oppure, finché manca la risposta, **25 vendite o 1.000 € di incassi**. Questa soglia provvisoria è una cautela scelta da me, senza base normativa; viene sostituita non appena arriva la risposta.
 
 ## 4. Confronto delle opzioni di prodotto
 
@@ -84,7 +93,7 @@ Le vendite sono cumulate, senza reinvestimento e senza imposte; con le imposte i
 
 | # | Azione | Chi | Cancello |
 |---|---|---|---|
-| 1 | Scrivere al commercialista le 4 domande di §3 e ottenere risposta per iscritto | Proprietario | Prima del primo incasso |
+| 1 | Scrivere al commercialista le 5 domande di §3 e ottenere risposta per iscritto | Proprietario | Prima del primo incasso |
 | 2 | Aprire account Gumroad a nome personale, verifica identità, scelta payout | Proprietario | Approvazione esplicita |
 | 3 | Aprire il file Excel in Microsoft Excel e controllare grafici e stampa | Proprietario | Prima della messa in vendita |
 | 4 | Verificare la pagina pubblicata su GitHub Pages | Proprietario | — |
