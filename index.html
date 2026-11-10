@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>StudioMargin — tariffa, preventivi, margini e cassa in un foglio Excel</title>
-<meta name="description" content="Foglio Excel gratuito per freelance e piccoli studi: tariffa oraria sostenibile, preventivi con margini, previsione di cassa a 12 mesi e preventivo stampabile. Versione 0.1 in validazione.">
+<meta name="description" content="Foglio Excel gratuito per freelance e piccoli studi. Chi vuole può pagarlo da 2 €: l'intero incasso netto viene donato ad AISM per la ricerca sulla sclerosi multipla, con bonifici documentati.">
 <style>
   :root { --navy:#1f3864; --ink:#1a1a1a; --muted:#4a4a4a; --line:#d0d5dd; --soft:#f4f6fa; --warn:#fff4e0; }
   * { box-sizing:border-box; }
@@ -38,16 +38,31 @@
   <div class="brand">StudioMargin</div>
   <h1>Quanto costa davvero un'ora del tuo lavoro? Un foglio Excel per scoprirlo.</h1>
   <p class="lead">Calcola una tariffa sostenibile, verifica il margine di ogni preventivo e controlla quando ti servirà liquidità nei prossimi 12 mesi.</p>
-  <p><span class="tag">Versione 0.1 · gratuita · in validazione</span></p>
+  <p><span class="tag">Versione 0.1 · gratuita · progetto solidale per la ricerca sulla sclerosi multipla</span></p>
   <p><a class="btn" href="StudioMargin.xlsx" download>Scarica StudioMargin.xlsx</a><br>
   <small>File Excel senza macro, senza registrazione. Contiene dati dimostrativi inventati da sostituire con i tuoi.</small></p>
 </header>
 
 <main>
   <div class="note warn" role="note">
-    <strong>Stato del progetto.</strong> La versione 0.1 si scarica gratis da questa pagina ed è in fase di prova. Se ti è utile e vuoi sostenere lo sviluppo, puoi acquistare lo stesso file su <a href="https://razrmarin.gumroad.com/l/studiomargin">Gumroad</a> (10 €): non contiene nulla in più della versione gratuita.
-    Gli esempi mostrati sono numeri dimostrativi, non risultati reali di nessuno.
+    <strong>Stato del progetto.</strong> Il file si scarica gratis da questa pagina. Se ti è utile, puoi pagarlo su <a href="https://razrmarin.gumroad.com/l/studiomargin">Gumroad</a> a partire da 2 €, con la cifra che scegli: non ricevi nulla in più della versione gratuita, ma <strong>l'intero incasso netto viene donato ad AISM</strong> per la ricerca scientifica. Gli esempi nel file sono numeri dimostrativi, non risultati reali di nessuno.
   </div>
+
+  <h2>Perché esiste questo progetto</h2>
+  <p>StudioMargin nasce da un esperimento: un'intelligenza artificiale (Claude, di Anthropic) parte da 1 € e prova a raddopparlo una casella alla volta, come nella leggenda dei chicchi sulla scacchiera, creando un prodotto utile e vendendolo in modo legale e verificabile. L'idea è il contrario dell'«AI che fa soldi»: il valore generato non resta a nessuno, ma va alla ricerca medica tramite <a href="https://www.aism.it">AISM, Associazione Italiana Sclerosi Multipla</a>.</p>
+  <p>L'AI non agisce da sola: progetta, scrive e collauda il file, ma ogni spesa, prezzo e pubblicazione viene approvata dal promotore umano del progetto.</p>
+
+  <h2>Trasparenza sulla donazione</h2>
+  <ul>
+    <li><strong>Chi promuove:</strong> è un'iniziativa personale di Luca Marinini. <strong>Non è organizzata, promossa né approvata da AISM</strong>, che non ne è responsabile.</li>
+    <li><strong>Cosa viene donato:</strong> il 100% dell'importo netto che Gumroad versa sul conto del promotore, cioè quanto paghi meno le commissioni di Gumroad e dei pagamenti con carta. Su un pagamento da 2 € le commissioni pesano molto (stima: circa 1 €); più alto è l'importo, maggiore è la quota che arriva ad AISM.</li>
+    <li><strong>Come:</strong> con bonifici ad AISM al raggiungimento di traguardi, chiedendo nella causale la destinazione alla ricerca scientifica.</li>
+    <li><strong>Come puoi controllare:</strong> per ogni bonifico questa pagina riporterà data, importo e ricevuta di AISM. Il registro di tutte le operazioni è pubblico nel <a href="https://github.com/LucaMarinini/StudioMargin-Claude/tree/main/sfida">repository del progetto</a>.</li>
+    <li><strong>Ricevuta fiscale:</strong> il pagamento su Gumroad è l'acquisto di un file, non una donazione: chi paga non riceve ricevuta di AISM e non può detrarlo. Se vuoi donare con detrazione, dona direttamente sul <a href="https://www.aism.it">sito di AISM</a>.</li>
+  </ul>
+
+  <h2>Bonifici ad AISM</h2>
+  <p>Nessun bonifico ancora: a oggi non ci sono vendite.</p>
 
   <h2>Cosa contiene</h2>
   <div class="grid">
@@ -78,7 +93,7 @@
     <li>Non calcola imposte, contributi previdenziali, IVA a debito o insoluti: il compenso obiettivo va inteso al lordo.</li>
     <li>L'aliquota IVA nel preventivo è solo un valore che scegli tu (0% se non applicabile): confrontati con il tuo commercialista.</li>
     <li>Non è consulenza fiscale o finanziaria: i risultati dipendono dalle ipotesi che inserisci.</li>
-    <li>Collaudato con LibreOffice. Una verifica completa con Microsoft Excel non è ancora stata eseguita.</li>
+    <li>Collaudato con LibreOffice e provato dal promotore in Microsoft Excel.</li>
   </ul>
 
   <h2>Come è stato controllato</h2>
@@ -90,7 +105,7 @@
 
 <footer>
   <p><strong>Privacy.</strong> Questa pagina non usa cookie né strumenti di analisi propri e non contiene moduli. Il sito è ospitato da GitHub Pages: GitHub può registrare dati tecnici di accesso secondo la <a href="https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement">propria informativa</a>. Il file Excel funziona sul tuo computer e non invia dati a nessuno.</p>
-  <p>StudioMargin v0.1 · dati dimostrativi · nessuna garanzia sui risultati.</p>
+  <p>StudioMargin v0.1 · dati dimostrativi · nessuna garanzia sui risultati. AISM e il suo nome appartengono all'associazione; il loro uso qui indica solo il destinatario delle donazioni.</p>
 </footer>
 </body>
 </html>
