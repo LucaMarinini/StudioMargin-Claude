@@ -3,6 +3,13 @@
 Legenda: **[F]** fatto con fonte · **[I]** inferenza · **[S]** stima con ipotesi dichiarate · **[O]** opinione di Claude.
 Questo documento non è consulenza fiscale o legale: i punti marcati «da confermare» vanno verificati per iscritto con il commercialista.
 
+## 0. Aggiornamento del 10/11/2026: pivot solidale (regole del proprietario)
+
+- **[F, decisione del proprietario]** Vendita solo su Gumroad, paga quanto vuoi da 2 €; 100% del capitale generato donato ad AISM con bonifici a traguardi; caselle conquistate solo con payout arrivato sul conto; cassa iniziale 1,00 €.
+- **Fatto:** prodotto `gmfbaz` aggiornato (minimo 2 €, paga quanto vuoi, testo solidale con avvertenze); pagina e ledger aggiornati; bozza del post in `POST_LANCIO.md`.
+- **Regola proposta da Claude, da confermare:** la scacchiera conta il capitale generato (cassa + già donato), altrimenti ogni donazione farebbe perdere caselle.
+- **Aperto:** contatto con AISM; regola sul residuo se il traguardo non arriva; trattamento fiscale dei ricavi donati (domanda al commercialista).
+
 ## 1. Cosa è cambiato
 
 Il commercialista indica che, almeno all'inizio, conviene vendere tramite piattaforme esterne e **non usare la partita IVA** del proprietario per queste vendite.
